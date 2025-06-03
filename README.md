@@ -19,3 +19,9 @@
 ![нод.победа](image-4.png)
 ![нод.проигрыш](image-5.png)
 
+
+![win](image-6.png)
+![lose](image-7.png)
+
+![проигрыш](image-8.png)
+![win](image-9.png)
