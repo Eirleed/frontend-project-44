@@ -5,10 +5,17 @@
   "type": "module",
   "main": "index.js",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install": "npm install",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-deps": "npm ci",
+    "brain-games": "node bin/brain-games.js",
+    "start": "node bin/brain-games.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +28,14 @@
   },
   "homepage": "https://github.com/Eirleed/frontend-project-44#readme",
   "dependencies": {
+    "ci": "^2.3.0",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "eslint": "^9.27.0",
+    "eslint-plugin-vue": "^10.1.0",
+    "globals": "^16.1.0",
+    "typescript-eslint": "^8.32.1"
   }
 }
